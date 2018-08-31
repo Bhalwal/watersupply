@@ -13,11 +13,11 @@
             <ul class="page-breadcrumb breadcrumb">
               <li>
                 <i class="fa fa-home"></i>
-                <a href="/admin/home/index">Home</a>
+                <a href="/">Home</a>
                 <i class="fa fa-angle-right"></i>
               </li>
               <li>
-                <a href="/admin/home/index">Dashboard</a>
+                <a href="/">Dashboard</a>
               </li>
               <li class="pull-right">
                 <div data-original-title="Change dashboard date range" data-placement="top" class="dashboard-date-range tooltips" id="dashboard-report-range">
@@ -32,7 +32,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/admin/users/all-users'">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/'">
             <div class="dashboard-stat blue-madison">
               <div class="visual">
                 <i class="fa fa-users"></i>
@@ -40,19 +40,20 @@
               <div class="details">
                 <div class="number">
                   <%#= @user_count %>
+                  <%= "1696" %>
                 </div>
                 <div class="desc">
                   Total Users
                 </div>
               </div>
-              <a href="/admin/users/all-users" class="more">
+              <a href="/" class="more">
                 View more <i class="m-icon-swapright m-icon-white"></i>
               </a>
             </div>
           </div>
 
 
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/admin/celebrities/all-celebrities'">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/'">
             <div class="dashboard-stat red-intense">
               <div class="visual">
                 <i class="fa fa-globe"></i>
@@ -60,19 +61,20 @@
               <div class="details">
                 <div class="number">
                   <%#= @celeb_count %>
+                  <%= "853492" %>
                 </div>
                 <div class="desc">
-                  Total Celebrities
+                  Total Payment august
                 </div>
               </div>
-              <a href="/admin/celebrities/all-celebrities" class="more">
+              <a href="/" class="more">
                 View more <i class="m-icon-swapright m-icon-white"></i>
               </a>
             </div>
           </div>
 
 
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/admin/jobs/index'">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 go_location" location="" style="cursor: pointer;" onclick="window.location.href='/'">
             <div class="dashboard-stat purple-plum">
               <div class="visual">
                 <i class="fa fa-bar-chart-o"></i>
@@ -82,10 +84,10 @@
                   <%#= @jobs = Job.all.count %>
                 </div>
                 <div class="desc">
-                  Total Jobs
+                  Billing History
                 </div>
               </div>
-              <a href="/admin/jobs/index" class="more">
+              <a href="/" class="more">
                 View more <i class="m-icon-swapright m-icon-white"></i>
               </a>
             </div>
