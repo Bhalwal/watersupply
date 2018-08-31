@@ -1,0 +1,52 @@
+<!--<div class="page-header navbar navbar-fixed-top">-->
+  <!--&lt;!&ndash; BEGIN HEADER INNER &ndash;&gt;-->
+  <!--<div class="page-header-inner">-->
+    <!--&lt;!&ndash; BEGIN LOGO &ndash;&gt;-->
+    <!--<div class="page-logo">-->
+      <!--<a href="/admin/home/index">-->
+        <!--<img class="logo-default" alt="logo" src="/assets/logo-celebvidy.png" style="width: 100px;height: 30px;margin:7px 0px 0px 0px">-->
+      <!--</a>-->
+
+      <!--<div class="menu-toggler sidebar-toggler hide">-->
+        <!--&lt;!&ndash; DOC: Remove the above "hide" to enable the sidebar toggler button on header &ndash;&gt;-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; END LOGO &ndash;&gt;-->
+    <!--&lt;!&ndash; BEGIN RESPONSIVE MENU TOGGLER &ndash;&gt;-->
+    <!--<a data-target=".navbar-collapse" data-toggle="collapse" class="menu-toggler responsive-toggler" href="javascript:;">-->
+    <!--</a>-->
+    <!--&lt;!&ndash; END RESPONSIVE MENU TOGGLER &ndash;&gt;-->
+    <!--&lt;!&ndash; BEGIN TOP NAVIGATION MENU &ndash;&gt;-->
+    <!--<div class="top-menu">-->
+      <!--<ul class="nav navbar-nav pull-right">-->
+        <!--&lt;!&ndash; BEGIN NOTIFICATION DROPDOWN &ndash;&gt;-->
+        <!--<li class="dropdown dropdown-user">-->
+          <!--<a data-close-others="true" data-hover="dropdown" data-toggle="dropdown" class="dropdown-toggle" href="#">-->
+            <!--<img src="" class="img-circle" alt="">-->
+					<!--<span class="username">-->
+					<%= current_user.email.split("@")[0] %> </span>
+            <!--<i class="fa fa-angle-down"></i>-->
+          <!--</a>-->
+          <!--<ul class="dropdown-menu">-->
+            <!--<li>-->
+              <!--<%#= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>-->
+              <!--&lt;!&ndash;<a href="login.html">&ndash;&gt;-->
+              <!--&lt;!&ndash;<i class="icon-key"></i> Log Out </a>&ndash;&gt;-->
+            <!--</li>-->
+          <!--</ul>-->
+        <!--</li>-->
+        <!--&lt;!&ndash; END USER LOGIN DROPDOWN &ndash;&gt;-->
+        <!--&lt;!&ndash; BEGIN QUICK SIDEBAR TOGGLER &ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="dropdown dropdown-quick-sidebar-toggler">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a class="dropdown-toggle" href="javascript:;">&ndash;&gt;-->
+        <!--&lt;!&ndash;<i class="icon-logout"></i>&ndash;&gt;-->
+        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</li>&ndash;&gt;-->
+        <!--&lt;!&ndash; END QUICK SIDEBAR TOGGLER &ndash;&gt;-->
+      <!--</ul>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; END TOP NAVIGATION MENU &ndash;&gt;-->
+  <!--</div>-->
+  <!--&lt;!&ndash; END HEADER INNER &ndash;&gt;-->
+<!--</div>-->
+<!--<div class="clearfix"></div>-->
